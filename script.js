@@ -1,7 +1,11 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
-	
-  return str.toLowerCase().indexOf(subStr.toLowerCase());
+	if (s2==s1) {
+		return str.toLowerCase().indexOf(subStr.toLowerCase());
+	} else {
+		return -1
+	}
+  
 }
 
 
